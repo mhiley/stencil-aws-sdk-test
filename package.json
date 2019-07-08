@@ -11,7 +11,12 @@
   },
   "dependencies": {
     "@stencil/core": "^1.0.7",
-    "@stencil/router": "^1.0.1"
+    "@stencil/router": "^1.0.1",
+    "@types/node": "12.6.1",
+    "aws-sdk": "2.489.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup-plugin-node-polyfills": "0.2.1"
+  }
 }

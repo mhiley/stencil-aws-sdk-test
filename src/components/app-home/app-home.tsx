@@ -1,4 +1,5 @@
 import { Component, h } from '@stencil/core';
+import * as AWS from 'aws-sdk/global';
 
 @Component({
   tag: 'app-home',
@@ -6,6 +7,15 @@ import { Component, h } from '@stencil/core';
   shadow: true
 })
 export class AppHome {
+
+  componentWillLoad() {
+    AWS.config.region = 'us-west-2';
+    AWS.config.credentials = new AWS.Credentials(
+      'asdf',
+      'zxcv',
+      null
+    );
+  }
 
   render() {
     return (
