@@ -1,4 +1,4 @@
-This is the Stencil.js "app" starter template, with aws-sdk installed - (see the commit for details)[https://github.com/mhiley/stencil-aws-sdk-test/commit/d62248b4f0c3d45c3188f79ba5fb32c8692c944a].
+This is the Stencil.js "app" starter template, with aws-sdk installed - [see the commit for details](https://github.com/mhiley/stencil-aws-sdk-test/commit/d62248b4f0c3d45c3188f79ba5fb32c8692c944a).
 
 The stencil build still gives the following error:
 
